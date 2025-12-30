@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../assets/logo.png">
+    <title>Portofolio Ghozi</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../assets/logo.png" alt="logo Bngje">
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portofolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <span class="hello-tag">Hello, I'm</span>
+                    <h1>Ahmad Ghozi Darmawan</h1>
+                    <h4 class="typing-text">Information Systems Student <br>& Web Developer</h4>
+                    <div class="hero-buttons">
+                        <a href="#portofolio" class="btn-primary">View My Work</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="circle-bg"></div>
+                    <img src="../assets/fotobngje.png" alt="Ahmad Ghozi Profile">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-container">
+                <div class="about-services">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <img src="../assets/webdev.png" alt="Web Development Icon">
+                        </div>
+                        <div class="service-info">
+                            <h3>Web Development</h3>
+                            <p>Building website with Laravel & React.</p>
+                        </div>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <img src="../assets/wireframe.png" alt="UI/UX Icon">
+                        </div>
+                        <div class="service-info">
+                            <h3>UI/UX Design</h3>
+                            <p>Translating user needs into interactive wireframes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text-content">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        I began my software journey out of curiosity. Through that, I learned to love the process of
+                        creating from scratch. Currently, I am a <strong>Information Systems student at UIN Sunan Ampel
+                            Surabaya</strong>.
+                    </p>
+                    <p class="about-description">
+                        My primary focus is on <strong>Software Engineering and Web Development</strong>. I combine
+                        technical skills with a background in Design to create effective digital solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="portofolio">
+            <h2>My Portfolio</h2>
+            <p>Every project here represents a step in my journey — learning, experimenting, and pushing boundaries in
+                frontend and design.</p>
+            <div class="portofolio-cards">
+                <div class="portofolio-card">
+                    <img src="../assets/ladingPageNongki.png" alt="Landing Page Nongki">
+                    <h3>Nongki</h3>
+                    <p>Workspace Booking Website.</p>
+                    <a href="https://github.com/bngje/nongki" target="_blank" class="direct-button">View Projects</a>
+                </div>
+                <div class="portofolio-card">
+                    <img src="../assets/websiteaudit.png" alt="Website Audit">
+                    <h3>Website Audit</h3>
+                    <p>Quality Assurance Management System Website.</p>
+                    <a href="https://gitlab.com/ahmadyusuf03/pemutu" target="_blank" class="direct-button">View
+                        Projects</a>
+                </div>
+                <div class="portofolio-card">
+                    <img src="../assets/saveEarth.png" alt="Save Earth">
+                    <h3>SavEarth</h3>
+                    <p>Waste Service Agency Website.</p>
+                    <a href="https://www.figma.com/design/izSdvFi8swTXZvKsJFJtjj/SavEarth?node-id=0-1&t=qWIEnlOtsXIJAjzk-1"
+                        target="_blank" class="direct-button">View Projects</a>
+                </div>
+            </div>
+            <div class="view-all-button-container">
+                <a href="portofolio.html" class="view-all-button">See All Projects</a>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="contact-desc">
+                        Whether you have a question or just want to say hi, I'll try my best to get back to you!
+                    </p>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <img class="email" src="../assets/mail.png" alt="Email Icon">
+                            <div>
+                                <h4>Email Me</h4>
+                                <p>ahmadghozi106@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <img class="map" src="../assets/map.png" alt="Location Icon">
+                            <div>
+                                <h4>Location</h4>
+                                <p>Jombang, Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" action="mailto:ahmadghozi106@gmail.com" method="post" enctype="text/plain" target="_blank">
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message-input" name="message" rows="4"
+                                placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="send-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-simple">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ahmadghozi09" target="_blank"><img src="../assets/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/bngje" target="_blank"><img src="../assets/github.png" alt="GitHub"></a>
+                <a href="https://www.instagram.com/lescr.e/" target="_blank"><img src="../assets/ig.png" alt="Instagram"></a>
+            </div>
+            <p class="copyright">&copy; 2025 Ahmad Ghozi Darmawan. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
