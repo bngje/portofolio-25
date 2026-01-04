@@ -167,11 +167,12 @@ a.active {
     position: relative;
     overflow: hidden;
     background-color: #ccc;
-    width: calc(33.333% - 20px);
-    height: 200px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 400px;
+    height: 250px;
     border-radius: 8px;
     transition: transform 0.3s ease;
-    min-width: 250px;
 }
 
 .portfolio-overlay {
@@ -258,11 +259,5 @@ footer {
 
     .portfolio-grid {
         grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 992px) and (min-width: 769px) {
-    .portfolio-grid {
-        grid-template-columns: repeat(2, 1fr);
     }
 }
